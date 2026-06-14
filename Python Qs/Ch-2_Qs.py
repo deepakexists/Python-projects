@@ -28,3 +28,17 @@ elif(c > b):
 else:
     print("Number B is Greater")
 
+
+
+
+
+                                 # WAP to check if a number is multiple of 7 or not
+
+
+num = 36
+
+if(num % 7 == 0):
+    print("number is multiple of 7")
+else:
+    print("number is not multiple of 7")
+
