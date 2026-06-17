@@ -1,3 +1,10 @@
+                               # WAP to input first name and print its length
+
+
+name = input("Name : ")
+print(len(name))
+
+                  
 
                           # WAP to check if a number enter by the user is odd or even.
 
