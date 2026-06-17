@@ -4,6 +4,19 @@
 name = input("Name : ")
 print(len(name))
 
+
+
+
+
+                                #WAP to find the occurrence of '$' in a string
+
+
+str = "Hi, $I am the $ symbol $99.99"
+print(str)
+print(str.count("$"))                      
+
+
+
                   
 
                           # WAP to check if a number enter by the user is odd or even.
