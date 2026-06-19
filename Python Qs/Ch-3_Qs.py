@@ -32,3 +32,10 @@ else:
 
 
 
+
+                        # WAP to count the number of student with the "A" grade in the following tuple.
+
+grade = ("C", "D", "A", "A", "B", "B", "A")
+count = grade.count("A")
+print(count)
+
