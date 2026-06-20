@@ -1,4 +1,4 @@
-                          # WAP to ask user to enter a names of their 3 favorite movies & store them in list
+                             # WAP to ask user to enter a names of their 3 favorite movies & store them in list
 
 
 movies = []
@@ -16,7 +16,7 @@ print(movies)
 
 
 
-                      # WAP to check if a list contains of palindrome of elements. (Hint: use copy() method)
+                               # WAP to check if a list contains of palindrome of elements. (Hint: use copy() method)
 
 list = [1, 2, 2, 1]
 print(list)
@@ -33,9 +33,17 @@ else:
 
 
 
-                        # WAP to count the number of student with the "A" grade in the following tuple.
+                                      # WAP to count the number of student with the "A" grade in the following tuple.
 
 grade = ("C", "D", "A", "A", "B", "B", "A")
 count = grade.count("A")
 print(count)
 
+
+
+
+                                       # WAP the above values in the list & sort them from "A" to "D"
+
+list = ["C", "D", "A", "A", "B", "B", "A"]
+list.sort()
+print(list)
