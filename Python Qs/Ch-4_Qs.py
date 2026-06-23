@@ -48,3 +48,21 @@ chem = int(input("Enter chem marks : "))
 marks.update({"chem" : chem})
 
 print(marks)
+
+
+
+
+
+
+
+                                      # Figure out the way to store 9 & 9.0 as saparate value in the set.
+                                      #  (you can take help of build-in data types)
+
+
+set = {9," 9.0"}    # Option 1
+set = {             
+    ("int", 9),     # Option 2
+    ("float", 9.0)
+}
+
+print(set)
