@@ -23,3 +23,18 @@ n = 1
 while n <= 10:
     print(n*i)
     n +=1
+
+
+
+
+
+                                # Print the elements of the following list using loop:
+                                # [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+list = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+# traverse
+idx = 0
+while idx < len(list):
+    print(list[idx])
+    idx += 1
