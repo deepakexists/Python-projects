@@ -13,3 +13,13 @@ num = 100
 while num >= 1:
     print(num)
     num-=1
+
+
+
+
+                                      #  print the multiplation table of a number n
+i = int(input(("Enter which table you want : ")))
+n = 1
+while n <= 10:
+    print(n*i)
+    n +=1
