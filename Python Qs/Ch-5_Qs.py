@@ -38,3 +38,9 @@ idx = 0
 while idx < len(list):
     print(list[idx])
     idx += 1
+
+
+# i = 1
+# while i <= 10:
+#     print(i**2)
+#     i += 1
