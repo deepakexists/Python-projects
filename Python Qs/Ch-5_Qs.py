@@ -60,3 +60,7 @@ while i < len(tup):
         print("Found at idx", i)
         break 
     i += 1
+
+
+
+                                         # Loops Qs
