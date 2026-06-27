@@ -44,3 +44,19 @@ while idx < len(list):
 # while i <= 10:
 #     print(i**2)
 #     i += 1
+
+
+
+                             # Search for the number X in the tuple using loop:
+                             # (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+
+tup = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+
+x = 36
+
+i = 0
+while i < len(tup):
+    if(tup[i] == x):
+        print("Found at idx", i)
+        break 
+    i += 1
