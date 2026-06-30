@@ -89,3 +89,13 @@ for num in tup:
         print("x Found at idx", idx)
         break
     idx += 1    
+
+
+
+
+
+
+                                   # Print number from 1 to 100.
+
+for num in range(1, 101):
+    print(num)
