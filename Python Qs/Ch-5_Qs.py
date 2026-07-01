@@ -95,7 +95,16 @@ for num in tup:
 
 
 
-                                   # Print number from 1 to 100.
+                                               # Print number from 1 to 100.
 
 for num in range(1, 101):
     print(num)
+
+
+
+ 
+                                                  # print numbers from 100 to 1.
+
+for num in range(100, 0, -1):
+    print(num)
+
