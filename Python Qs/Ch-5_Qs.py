@@ -108,3 +108,11 @@ for num in range(1, 101):
 for num in range(100, 0, -1):
     print(num)
 
+
+
+                                                 # print the multiplication table of number n.
+
+n = int(input("Enter a number: "))
+for i in range(1, 11):
+    print(n*i)
+
