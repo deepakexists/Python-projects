@@ -122,7 +122,7 @@ for i in range(1, 11):
 
                                 # WAP to find the sum of n natural number. (using while loop)
 
-While loop
+# While loop
 n = int(input("Enter a number: "))
 
 sum = 0
@@ -133,7 +133,7 @@ while(i <= n):
 print("Sum is : ", sum )
 
 
-For loop
+# For loop
 n = int(int(input("Enter a number: ")))
 
 sum = 0
