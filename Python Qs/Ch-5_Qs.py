@@ -120,8 +120,8 @@ for i in range(1, 11):
 
 
 
-                                # WAP to find the sum of n natural number. (using while loop)
-
+                                          # WAP to find the sum of n natural number. (using while loop)
+ 
 # While loop
 n = int(input("Enter a number: "))
 
@@ -140,3 +140,29 @@ sum = 0
 for i in range(1, n+1):
     sum += i
 print(sum)
+
+
+
+
+
+
+
+                           # WAP to find the factorial of first n number. (using for)
+
+n = int(input("Enter a number: "))
+
+fact = 1
+for i in range(1, n+1):
+    fact *= i
+print(fact)
+
+
+# While loop
+n = int(input("Enter a number: "))
+
+fact = 1
+i = 1
+while(i <= n):
+    fact *= i
+    i += 1
+print("fact is : ", fact )
