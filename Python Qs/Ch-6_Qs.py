@@ -27,3 +27,20 @@ def len_list(list):
 
 len_list(num)
 len_list(name)
+
+
+
+
+
+                              # WAF to print the element of a list in a single line. (list is the parameter)
+
+num = [1, 2, 3, 4, 5]
+name = ["Deepak", "Harsh", "tarun", "Aaryan"]
+
+def print_list(list):
+    for items in list:
+        print(items, end=" ")
+
+print_list(num)
+print_list(name)
+
