@@ -67,3 +67,16 @@ def converter(usd_val):
     print(usd_val, "USD = ", inr_val, "INR")
 
 converter(5)    
+
+
+
+
+                                    # WAF to find number is odd or even. (Number has to be given by the user)
+
+def odd_even(n):
+    if(n%2 == 0):
+     print("EVEN")
+    else:
+     print("ODD")
+
+odd_even(n = int(input("Enter a number: ")))     
