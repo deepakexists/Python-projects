@@ -80,3 +80,20 @@ def odd_even(n):
      print("ODD")
 
 odd_even(n = int(input("Enter a number: ")))     
+
+
+
+
+
+                                                      # Recursion 
+
+
+                                               # Print n to 1 backwards
+# recursive function
+def show(n):
+    if(n == 0):
+        return
+    print(n)
+    show(n-1)
+
+show(5)
