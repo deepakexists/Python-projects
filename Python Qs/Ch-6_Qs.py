@@ -113,3 +113,20 @@ def calc_sum(n):
 
 print(calc_sum(4))
 
+
+
+
+
+                         # Write a recurive funtion to print all the element in the list.
+                         # Hint : use list & index as parameter
+
+
+
+def print_list(list, idx=0):
+    if(idx == len(list)):
+        return 
+    print(list[idx])
+    return print_list(list , idx+1)
+    
+name = ["Deepak", "Harsh", "Tarun", "Aaryan"]  
+print_list(name)
