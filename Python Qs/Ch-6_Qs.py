@@ -97,3 +97,19 @@ def show(n):
     show(n-1)
 
 show(5)
+
+
+
+
+
+
+                              #    Write a recurive function to calculate the sum of first n natural number.
+
+
+def calc_sum(n):
+    if(n == 0):
+        return 0
+    return n + calc_sum(n-1)
+
+print(calc_sum(4))
+
