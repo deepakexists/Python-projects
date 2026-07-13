@@ -16,7 +16,6 @@ with open("practice.txt", "w") as f:
 
 
 
-
                                   #   WAF that all the occurrences of "java" with "python" in above file.
 
 def replace_word():
@@ -30,3 +29,22 @@ def replace_word():
     f.write(new_data)
 
 replace_word()
+
+
+
+
+
+
+
+                                # Search if the word "learning" exists in the file or not
+
+def check_for_word(word):
+    #word = "learning"
+    with open("practice.txt", "r") as f:
+        data = f.read()
+    if(data.find(word) != -1):
+        print("FOUND")
+    else:
+        print("Not found")
+
+check_for_word("learning")
