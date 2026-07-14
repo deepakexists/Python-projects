@@ -36,7 +36,7 @@ replace_word()
 
 
 
-                                # Search if the word "learning" exists in the file or not
+                                    # Search if the word "learning" exists in the file or not
 
 def check_for_word(word):
     #word = "learning"
@@ -48,3 +48,29 @@ def check_for_word(word):
         print("Not found")
 
 check_for_word("learning")
+
+
+
+
+
+
+                                    # WAF to find in which line of the file dose the word "learning" occur first
+                                    # print -1 if word not found
+
+def check_for_line():
+    word = "learning"
+    data = True
+    line_no = 1
+    with open("practice.txt", "r") as f:
+        while data:
+            data = f.readline()
+            if(word in data):
+                print(line_no)
+                return
+            line_no += 1
+
+    return -1
+
+check_for_line()
+
+
