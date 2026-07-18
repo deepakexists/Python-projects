@@ -52,3 +52,32 @@ acc1.debit(1000)
 acc1.credit(500)
 
 
+
+
+
+
+
+                       # Define a circle class to create a circle with radius r using constructor.
+                       # Define an area() method of the class which calculate the area of circle
+                       # Define the parimete() method of the which allows you to calculate the perimeter
+                       #  of the circle 
+
+
+class circle:
+    def __init__(self, r):
+        self.r = r
+
+    def area(self):
+        area = 3.14*self.r*self.r
+        return area
+
+    def perimeter(self):
+        perimeter = 2*3.14*self.r
+        return perimeter
+    
+c1 = circle(3)
+print(c1.area()) 
+print(c1.perimeter())
+
+
+
