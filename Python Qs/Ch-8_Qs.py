@@ -81,3 +81,41 @@ print(c1.perimeter())
 
 
 
+
+
+
+
+
+                           # Define a employee class with attributes role, department & salary. this class also has a
+                           #   showDetails() method.
+                           # Create an engineer class that inherits properties from employee & has addional
+                           #  attributes: name & age
+
+
+class employee:
+    def __init__(self, role, department, salary):
+        self.role = role
+        self.department = department
+        self.salary = salary
+
+    def showDetails(self):
+        print("Role =", self.role)
+        print("Department = ", self.department)
+        print("Salary = ", self.salary)
+
+class engineer(employee):
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        super().__init__("Engineer", "IT", "75,000")
+
+
+engg1 = engineer("Deepak", 40)
+engg1.showDetails()
+
+
+
+
+
+
+
