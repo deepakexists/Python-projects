@@ -119,3 +119,21 @@ engg1.showDetails()
 
 
 
+                              # Create a class called order which store items & its price.
+                              # use dunder function __gt__() to convey that:
+                              #        order1 > order2 if price of order1 > price of order2
+                               
+                             
+
+class order:
+    def __init__(self, items, price):
+        self.items = items
+        self.price = price
+
+    def __gt__(self, ord2):
+        return self.price > ord2.price
+
+ord1 = order("chips", 20)
+ord2 = order("tea", 15)
+
+print(ord1 > ord2)   # True
